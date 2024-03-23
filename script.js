@@ -36,5 +36,29 @@ listItem.addEventListener('scroll', function() {
     }
     
 });
+// listItem.addEventListener('scroll', function() {
+//     //1.first method
+//     // extraItems();
+    
+    
+    
+
+//     //2nd method
+//     if (listItem.scrollTop + listItem.clientHeight >= listItem.scrollHeight) {
+//         extraItems(); // Load more items when scrolled to the bottom
+//         // console.log("reached end");
+//         // addItems(); 
+//     }
+//     extraItems();
+    
+
+//     //3rd method
+//     if (listItem.scrollHeight - listItem.scrollTop === listItem.clientHeight) {
+
+        
+//     }
+//     extraItems();
+    
+// });
 
 
